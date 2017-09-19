@@ -1,0 +1,13 @@
+39516441c5fb652b524937b0eaa8d812 *DESCRIPTION
+2f9fae58b9dd8566c3add61d05951931 *NAMESPACE
+7c94b386ea7896e354303de2e810fede *R/kpeaks.R
+d4dc77d97ce1e891066402dfecd234c4 *data/datalist
+ad79b4ef1c0bcb88c7c729e2e162bd82 *data/x5p4c.rda
+17ebda62e19519e29b675d80da9faa7e *inst/CITATION
+d06f458cfa7bbfb7bbd39097cd069e2f *man/findk.Rd
+204a93d726238d81dab6e865ff4d95db *man/findpolypeaks.Rd
+e02c462c219345df56a0cdf2d957c2fa *man/genpolygon.Rd
+b7a0adab0bc3c8b323e9d8b2eb2e42cd *man/kpeaks-package.Rd
+1edd5ab6503edd4cc5d5873432585516 *man/plotpolygon.Rd
+8b9c27833c9c9a4110583739a9c5e98c *man/rmshoulders.Rd
+725ea8c78e179742b759e87224daae36 *man/x5p4c.Rd
