@@ -2,10 +2,10 @@
 \alias{x5p4c}
 \docType{data}
 \title{
-Synthetic Data Set with 5 Variables and 4 Clusters 
+Synthetic Data Set contains 5 Variables and 4 Clusters 
 }
 \description{
-A synthetically created data frame consists of five continous variables that form four clusters.
+A synthetically created data frame consists of five continous variables forming four clusters.
 }
 \usage{data(x5p4c)}
 \format{A data frame with 400 rows and 5 numeric variables:

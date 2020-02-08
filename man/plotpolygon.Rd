@@ -34,6 +34,14 @@ a string specifying the type of plot. Use \option{p} for plotting the polygon on
 Zeynel Cebeci, Cagatay Cebeci
 }
 
+\references{
+Cebeci, Z. & Cebeci, C. (2018). "A novel technique for fast determination of K in partitioning cluster analysis", \emph{Journal of Agricultural Informatics}, 9(2), 1-11. 
+doi: \href{https://doi.org/10.17700/jai.2018.9.2.442}{10.17700/jai.2018.9.2.442}.
+
+Cebeci, Z. & Cebeci, C. (2018). "kpeaks: An R Package for Quick Selection of K for Cluster Analysis", In \emph{2018 International Conference on Artificial Intelligence and Data Processing (IDAP)}, IEEE. 
+doi: \href{https://doi.org/10.1109/IDAP.2018.8620896}{10.1109/IDAP.2018.8620896}.
+}
+
 \seealso{
 \code{\link{genpolygon}}
 }

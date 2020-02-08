@@ -39,7 +39,12 @@ Most of the rules simply include only \var{n} as the input argument. On the othe
 \references{
 Brooks C E P & Carruthers N (1953). Handbook of statistical methods in meteorology. H M Stationary Office, London.
 
-Cebeci Z & Yildiz F (2017). Unsupervised discretization of continuous variables in a chicken egg quality traits dataset. \emph{Turk. J Agriculture-Food Sci. & Tech.} 5(4): 315-320.
+Cebeci Z & Yildiz F (2017). Unsupervised discretization of continuous variables in a chicken egg quality traits dataset. \emph{Turk. J Agriculture-Food Sci. & Tech.} 5(4): 315-320. doi: \href{https://doi.org/10.24925/turjaf.v5i4.315-320.1056}{10.24925/turjaf.v5i4.315-320.1056}.
+
+Cebeci Z & Cebeci C (2018). "A novel technique for fast determination of K in partitioning cluster analysis", \emph{Journal of Agricultural Informatics}, 9(2), 1-11. 
+doi: \href{https://doi.org/10.17700/jai.2018.9.2.442}{10.17700/jai.2018.9.2.442}.
+
+Cebeci Z & Cebeci C (2018). "kpeaks: An R package for quick selection of k for cluster analysis", In \emph{2018 Int. Conf. on Artificial Intelligence and Data Processing (IDAP)}, IEEE. doi: \href{https://doi.org/10.1109/IDAP.2018.8620896}{10.1109/IDAP.2018.8620896}.
 
 Cencov N N (1962). Evaluation of an unknown distribution density from observations. \emph{Soviet Mathematics} 3: 1559-1562.
 
@@ -49,7 +54,7 @@ Doane D P (1976). Aesthetic frequency classification. \emph{American Statisticia
 
 Freedman D & Diaconis P (1981). On the histogram as a density estimator: L2 Theory. \emph{Zeit. Wahr. ver. Geb.} 57(4):453-476.
 
-Hyndman R J (1995). The problem with Sturges rule for constructing histograms. \url{http://robjhyndman.com/papers/sturges.pdf}. 
+Hyndman R J (1995). The problem with Sturges rule for constructing histograms. url:\url{http://robjhyndman.com/papers/sturges.pdf}. 
 
 Huntsberger D V (1962). Elements of statistical inference. London: Prentice-Hall.
 

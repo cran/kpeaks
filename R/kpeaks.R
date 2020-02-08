@@ -272,9 +272,9 @@ rmshoulders <- function(xm, xc, trmethod, tv){
 findk <- function(x, binrule, nbins, tcmethod, tc, trmethod, tv, rms=FALSE, rcs=FALSE, tpc=1){
   if(missing(x)) 
     stop("Missing dataset")
-  if(class(x) == "data.frame") 
+  if (is(x, "data.frame"))
     x <- as.matrix(x)
-  if(class(x) != "matrix") 
+  if (!is(x, "matrix"))
     stop("Dataset must be a numeric data frame or a matrix")
   if(missing(binrule))
     binrule <- "sturges"

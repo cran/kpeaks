@@ -33,10 +33,18 @@ findpolypeaks(xm, xc, tcmethod, tc)
 The peaks are determined after removing the empty and small height classes whose frequencies are below the chosen threshold frequency. Default threshold value is 1 that means that all the classes which have frequencies of 0 and 1 are removed in the input vectors \code{xm} and \code{xc}. 
 }
 \value{
- \item{pm}{a data frame with two columns which are named \var{pvalues} and \var{pfreqs} containing the middle values and frequencies of the peaks which determined in the frequency polygon, respectively.}
+ \item{pm}{a data frame with two columns which are \var{pvalues} and \var{pfreqs} containing the middle values and frequencies of the peaks which determined in the frequency polygon, respectively.}
  \item{np}{an integer representing the number of peaks in the frequency polygon.}
 }
 \author{Zeynel Cebeci, Cagatay Cebeci}
+
+\references{
+Cebeci, Z. & Cebeci, C. (2018). "A novel technique for fast determination of K in partitioning cluster analysis", \emph{Journal of Agricultural Informatics}, 9(2), 1-11. 
+doi: \href{https://doi.org/10.17700/jai.2018.9.2.442}{10.17700/jai.2018.9.2.442}.
+
+Cebeci, Z. & Cebeci, C. (2018). "kpeaks: An R Package for Quick Selection of K for Cluster Analysis", In \emph{2018 International Conference on Artificial Intelligence and Data Processing (IDAP)}, IEEE. 
+doi: \href{https://doi.org/10.1109/IDAP.2018.8620896}{10.1109/IDAP.2018.8620896}.
+}
 
 \seealso{
   \code{\link{findk}},
@@ -69,3 +77,5 @@ print(resfpp3)
 \concept{frequency polygons}
 \concept{frequency distribution}
 \concept{peaks in a distribution}
+
+\keyword{cluster}

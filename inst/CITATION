@@ -1,10 +1,16 @@
-year <- sub("-.*", "", meta$Date) 
-note <- sprintf("R package version %s", meta$Version)
-textVersion = paste0("Cebeci, Z. & Cebeci, C. (", year,"). kpeaks: Determination of k by using peak counts of features. ", note, ", URL https://CRAN.R-project.org/package=kpeaks")
-bibentry(textVersion, bibtype = "Manual",
- title = "{kpeaks}: Determination of k by using peak counts of features",
- author = c(person("Zeynel", "Cebeci"),
- person("Cagatay", "Cebeci")),
- year = year,
- note = note, 
- url = "https://CRAN.R-project.org/package=kpeaks")
+citHeader("To cite the package 'kpeaks' in publications use:")
+citEntry(entry = "Article",
+ title = "A novel technique for fast determination of K in partitioning cluster analysis.",
+ author = c(person("Zeynel", "Cebeci"), person("Cagatay", "Cebeci")),
+ journal = "Journal of Agricultural Informatics",
+ year = "2018",
+ volume = "9",
+ number = "2",
+ pages = "1--11",
+ doi = "10.17700/jai.2018.9.2.442",
+
+textVersion = paste("Cebeci, Z. & Cebeci, C. (2018).",
+   "A novel technique for fast determination of K in partitioning cluster analysis.", 
+   "Journal of Agricultural Informatics, 9(2), 1-11.",
+   "doi: 10.17700/jai.2018.9.2.442")
+)
